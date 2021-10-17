@@ -25,7 +25,7 @@
 							</ul>
 						</header>
 						<div class="content">
-							 <img src="images/laptop.jpeg" alt="" class="image fit"/>
+							 <img src="images/laptop.jpeg" alt="" class=".moveImage"/>
 						</div>
 					</section>
 
@@ -181,7 +181,20 @@
 
 			</div>
 		<!-- Classes -->
+		.moveImage {
+			display: block;
+			margin: 3rem 0;
+			width: 100%;
+			top: 25px;
+		}
 
+			.image.main img {
+				width: 100%;
+			}
+
+			.image.main:first-child {
+				margin-top: 0;
+			}
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
